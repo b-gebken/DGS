@@ -11,7 +11,6 @@ problem_data.n = n;
 problem_data.f = @(in) nest_fun(in,m);
 problem_data.subgrad_f = @(in) nest_fun_grad(in,m);
 problem_data.x0 = 10*ones(n,1);
-x_min = [-1/m*ones(m,1);zeros(n-m,1)];
 
 % Set parameters for DGS
 kappa_eps = 0.75;
@@ -58,6 +57,7 @@ end
 
 M = 3;
 p = 2;
+x_min = [-1/m*ones(m,1);zeros(n-m,1)];
 
 %% Plot (a)
 

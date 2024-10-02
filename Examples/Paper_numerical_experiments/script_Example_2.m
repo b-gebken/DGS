@@ -11,7 +11,6 @@ problem_data.n = n;
 problem_data.f = @(x) maxq(x);
 problem_data.subgrad_f = @(x) grad_maxq(x);
 problem_data.x0 = maxq_x0(n);
-x_min = zeros(n,1);
 
 % Set parameters for DGS
 kappa_eps = 0.5;
@@ -60,6 +59,7 @@ N_bar = max(Nj_arr);
 
 M = 10;
 p = 2;
+x_min = zeros(n,1);
 
 %% Plot (a)
 

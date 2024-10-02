@@ -12,7 +12,6 @@ problem_data.n = n;
 problem_data.f = @(x) p_order_growth_fun(x,order);
 problem_data.subgrad_f = @(x) grad_p_order_growth_fun(x,order);
 problem_data.x0 = [10.0;0.0];
-x_min = zeros(n,1);
 
 % Set parameters for DGS 
 kappa_eps = 0.85;
@@ -58,6 +57,7 @@ for l = 1:l_max
 end
 
 p = order;
+x_min = zeros(n,1);
 
 %% Plot (a)
 
