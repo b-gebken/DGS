@@ -13,3 +13,6 @@ The folder Examples contains a script that performs a benchmark in which the met
 [G2022] Gebken (2022): Computation and analysis of pareto critical sets in smooth and nonsmooth multiobjective optimization. doi:10.17619/UNIPB/1-1327<br/>
 [G2024b] Gebken (2024): A note on the convergence of deterministic gradient sampling in nonsmooth optimization. doi:10.1007/s10589-024-00552-0<br/>
 [H2004] Haarala (2004): Large-Scale Nonsmooth Optimization: Variable Metric Bundle Method with Limited Memory<br/>
+
+<h1>Acknowledgements</h1>
+This research was funded by Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Projektnummer 545166481.
