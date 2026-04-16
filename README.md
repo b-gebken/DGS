@@ -8,8 +8,8 @@ The folder Examples contains a script that performs a benchmark in which the met
 
 (If you are using this implementation in your research, please cite [GP2021] and [G2024b].)
 
-[G2024a] Gebken (2024): Analyzing the speed of convergence in nonsmooth optimization via the Goldstein subdifferential with application to descent methods (to be submitted)<br/>
-[GP2021] Gebken, Peitz (2021): An Efficient Descent Method for Locally Lipschitz Multiobjective Optimization Problems. doi:0.1007/s10957-020-01803-w<br/>
+[G2024a] Gebken (2024): Analyzing the speed of convergence in nonsmooth optimization via the Goldstein subdifferential with application to descent methods. doi:10.1007/s10957-025-02748-8<br/>
+[GP2021] Gebken, Peitz (2021): An Efficient Descent Method for Locally Lipschitz Multiobjective Optimization Problems. doi:10.1007/s10957-020-01803-w<br/>
 [G2022] Gebken (2022): Computation and analysis of pareto critical sets in smooth and nonsmooth multiobjective optimization. doi:10.17619/UNIPB/1-1327<br/>
 [G2024b] Gebken (2024): A note on the convergence of deterministic gradient sampling in nonsmooth optimization. doi:10.1007/s10589-024-00552-0<br/>
 [H2004] Haarala (2004): Large-Scale Nonsmooth Optimization: Variable Metric Bundle Method with Limited Memory<br/>
