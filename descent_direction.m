@@ -14,9 +14,10 @@ end
 
 if(rand_sample_N == 0)
     % Step 1 in [GP2021] (Deterministic initial approximation)
-    W = [W,subgrad_f(x)]; eval_counter.subgrad_eval = eval_counter.subgrad_eval + 1;
+    subgrad_f_x = subgrad_f(x);
+    W = [W,subgrad_f_x]; eval_counter.subgrad_eval = eval_counter.subgrad_eval + 1;
     if(memory.max_size > 0)
-        memory = add_to_memory(x,W,memory);
+        memory = add_to_memory(x,subgrad_f_x,memory);
     end
 else
     % Random initial approximation
